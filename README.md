@@ -31,6 +31,7 @@ The model follows a U-Net architecture:
 - A batch size of 32 is used for training.
 - The model is trained for 50 epochs using the Adam optimizer and binary cross-entropy loss.
 - A custom callback saves the model every 5 epochs.
+- Google Collab's T4 GPU was used for the training process.
 
 
 ## Results
